@@ -1,5 +1,5 @@
 {
-  "name": "@routex402/sdk",
+  "name": "routex402-sdk",
   "version": "0.1.0",
   "description": "Verified payment reputation for AI agents on Solana (Routex402). Read-only lookups, vetting checks, and policy decisions.",
   "license": "MIT",
