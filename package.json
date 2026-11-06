@@ -1,0 +1,29 @@
+{
+  "name": "@routex402/sdk",
+  "version": "0.1.0",
+  "description": "Verified payment reputation for AI agents on Solana (Routex402). Read-only lookups, vetting checks, and policy decisions.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "repository": { "type": "git", "url": "https://github.com/msurfx/routex402-sdk.git" },
+  "homepage": "https://routex402.xyz",
+  "keywords": ["solana", "agents", "ai", "reputation", "x402", "payments"],
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
